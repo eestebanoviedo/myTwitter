@@ -11,13 +11,20 @@ import useGlobalStyles from "styles"
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#3E984C",
+      main: "#ffffff",
       light: "#3D996050",
     },
     secondary: {
-      main: "#019966",
+      main: "#00acee",
+    },
+    custom: {
+      light: "#ffa726",
+      main: "black",
+      dark: "#ef6c00",
+      contrastText: "rgba(0, 0, 0, 0.87)",
     },
   },
+
   overrides: {
     MuiOutlinedInput: {
       root: {

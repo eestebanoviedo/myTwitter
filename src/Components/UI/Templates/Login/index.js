@@ -10,7 +10,7 @@ const LoginTemplate = () => {
         <Grid
           item
           xs={false}
-          sm={6}
+          sm={false}
           md={6}
           style={{
             backgroundImage: `url(${
@@ -29,9 +29,10 @@ const LoginTemplate = () => {
         justifyContent="center"
         alignItems="center"
         xs={12}
-        sm={6}
+        sm={12}
         md={6}
         elevation={6}
+        style={{ background: "black" }}
       >
         <OrganismLogin />
       </Grid>
