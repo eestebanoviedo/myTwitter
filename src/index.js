@@ -20,7 +20,7 @@ const theme = createTheme({
     custom: {
       light: "#ffa726",
       main: "black",
-      dark: "#ef6c00",
+      dark: "white",
       contrastText: "rgba(0, 0, 0, 0.87)",
     },
   },
@@ -38,7 +38,6 @@ const theme = createTheme({
 
 function MyThemeProvider({ children }) {
   useGlobalStyles()
-
   return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 

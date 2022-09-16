@@ -2,8 +2,13 @@ import { makeStyles } from "@mui/styles"
 
 const useGlobalStyles = makeStyles(() => ({
   "@global": {
-    body: {
+    html: {
+      fontSize: "62.5%",
+    },
+    "*": {
+      boxSizing: "border-box",
       margin: 0,
+      padding: 0,
     },
   },
 }))

@@ -11,7 +11,7 @@ const LoginTemplate = () => {
           item
           xs={false}
           sm={false}
-          md={6}
+          md={5}
           style={{
             backgroundImage: `url(${
               process.env.PUBLIC_URL + "../Images/loginTw.png"
@@ -30,7 +30,7 @@ const LoginTemplate = () => {
         alignItems="center"
         xs={12}
         sm={12}
-        md={6}
+        md={7}
         elevation={6}
         style={{ background: "black" }}
       >

@@ -3,19 +3,16 @@ import { makeStyles } from "@mui/styles"
 const useStyles = makeStyles((theme) => ({
   paper: {
     margin: theme.spacing(8, 4),
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "start",
   },
   logo: {
-    height: "198.6px",
-    width: "220.1px",
+    height: "17rem",
+    width: "17rem",
   },
   logoGoogle: {
-    height: "18px",
-    marginRight: "8px",
-    minWidth: "18px",
-    width: "18px",
+    height: "2rem",
+    marginRight: "2rem",
+    minWidth: "2rem",
+    width: "2rem",
   },
   button: {
     width: "100%",
